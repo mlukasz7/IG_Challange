@@ -1,0 +1,343 @@
+body
+{
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0 !important;
+}
+
+#container
+{
+	width: 100%;
+}
+
+#blackh
+{
+	height: 94px;
+	background-color: #000;	
+}
+
+#grayh
+{
+	height: 12px;
+	background-color: #666;
+}
+
+.languages
+{
+	width: 1100px;
+	margin: 0 auto;
+	color: #b1b0b0;
+	text-align: right;
+}
+
+.languages > ul
+{
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+
+}
+
+.languages ul > li
+{
+	
+	width: 27px;
+	height: 19px;
+	float: left;
+}
+
+.languages ul li:hover
+{
+	color: #343434;
+	background-color: #828282;
+	cursor: pointer;
+}
+
+.liActive
+{
+	color: #343434;
+	background-color: #828282;
+}
+
+.logomenu
+{
+	width: 1065px;
+	margin: 0 auto;
+}
+
+.logomenu img
+{
+	border-right: 2px #454545 solid;
+	float: left;
+	/*height: 67px;*/
+	padding: 17px 0;
+	padding-right: 28px;
+}
+
+.logomenu > ul
+{
+	font-size: 11px;
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+ 
+.logomenu ul li
+{
+	padding-left: 32px;
+	display: block;
+}
+
+.logomenu ul li a
+{
+	text-decoration: none;
+	color: #b1b0b0;
+	line-height: 150%;
+}
+
+.logomenu ul li a:hover
+{
+	color: #343434;
+	background-color: #828282;
+}
+
+.close
+{
+	position: relative;
+    right: -1065px;
+    bottom: -27px;
+    margin: 0 !important;
+}
+
+#content
+{
+	width: 1064px;
+	margin: 0 auto;
+}
+
+.line
+{
+	width: 100%;
+	height: 1px;
+	background-color: #d9d9da;
+}
+
+.about
+{
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.txt h1
+{
+	color: #9e2b66;
+	font-size: 50px;
+	font-family: 'News Cycle', sans-serif;
+	padding: 0 12px;
+	margin: 0;
+}
+
+.txt p
+{
+	font-size: 25px;
+	padding: 0 12px 24px 12px;
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0;
+}
+
+.tile
+{
+	width: 518px;
+	float: left;
+	font-size: 13px;
+	padding: 7px;
+}
+
+.tile > h4
+{
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 200%;
+	font-weight: 700;
+	margin: 15px 0;
+}
+
+.tile > ul
+{
+	margin: 0;
+	padding: 0;
+}
+.tile > ul > li
+{
+	list-style-type: none;
+	padding-left: 12px;
+	background: url("img/li.png") no-repeat center left;
+	display: block;
+	line-height: 150%;
+
+}
+
+#content > h2
+{
+	color: #9e2b66;
+	font-size: 40px;
+	font-family: 'News Cycle', sans-serif;
+	padding: 24px 12px;
+	margin: 0;
+}
+
+#content > p
+{
+	font-size: 13px;
+	padding: 0 12px 50px 12px;
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0;
+
+}
+
+#content > img
+{
+	margin-left: 120px;
+	margin-bottom: 30px;
+}
+
+#content > form
+{
+	background-color: #efefef;
+	padding: 26px 44px;
+	font-family: 'Noto Sans', sans-serif;
+	margin-bottom: 26px;
+}
+
+#content > form input
+{
+	display: block;
+	width: 196px;
+	padding: 0;
+	margin: 0;
+}
+
+#content > form > table, th, td
+{
+	border-collapse: collapse;
+}
+
+#content > form
+{
+	padding-right: 42px;
+	padding-bottom: 16px;
+	font-size: 13px;
+}
+
+#content > form td
+{
+	padding-right: 30px;
+	padding-bottom: 16px;
+}
+
+.legend
+{
+	margin-top: 16px;
+	font-size: 25px;
+}
+
+.fquest
+{
+	float: left;
+}
+
+.fbottom
+{
+	float: left;
+}
+
+.more
+{
+	color: #ff7a03;
+}
+
+.send
+{
+	width: 206px;
+	height: 46px;
+	color: #fff;
+	background-color: #ff7a03;
+	border: 0;
+	width: 100%;
+	float: right;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	text-align: center;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #000;
+}
+
+.fcontent
+{
+	width: 1192px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.fcontent > ul
+{
+	color: #828282;
+	display: inline-block;
+	float: left;
+}
+
+.fcontent > ul > li
+{
+	float: left;
+	display: block;
+	list-style: none;
+	padding: 2px 30px;
+}
+
+.bdr
+{
+	border-right: 1px solid #828282;
+	margin-right: 22px;
+}
+
+.tel
+{
+
+	background: url("img/tel.png") no-repeat center left;
+}
+
+.mail
+{
+	background: url("img/post.png") no-repeat center left;
+}
+
+.fejs
+{
+	background: url("img/fb.png") no-repeat center left;
+}
+
+.fcontent > ul > li:first-child
+{
+	padding-left: 10px;
+}
+
+.fcontent > ul > li > a
+{
+	text-decoration: none;
+	color: #828282;
+}
+
+.cpy
+{
+	color: #828282;
+	float: left;
+	margin-top: 16px;
+	margin-left: 56px;
+}
